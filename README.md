@@ -88,7 +88,7 @@ See [`.env.example`](.env.example). Required Infinite Campus settings:
 
 | Variable | Description |
 |----------|-------------|
-| `IC_BASE_URL` | District login host, no path (e.g. `https://downingtownpa.infinitecampus.org`) |
+| `IC_BASE_URL` | District login host, no path (e.g. `https://district.infinitecampus.org`) |
 | `IC_DISTRICT` | `appName` from the login page (View Source / Inspect → search for `appName`) |
 | `IC_USERNAME` / `IC_PASSWORD` | Parent portal login |
 | `IC_POLL_INTERVAL_SECONDS` | Poll interval (default `900`, minimum `60`) |

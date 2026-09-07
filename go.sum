@@ -4,6 +4,8 @@ github.com/gorilla/websocket v1.5.3 h1:saDtZ6Pbx/0u+bgYQ3q96pZgCzfhKXGPqt7kZ72aN
 github.com/gorilla/websocket v1.5.3/go.mod h1:YR8l580nyteQvAITg2hZ9XVh4b55+EU/adAjf1fMHhE=
 github.com/resnostyle/mqttkit v0.0.0-20260907115432-3061fa789ccd h1:6uFk3my4OdTmu11AE0G/SKLApsbm0hyqyU6FGQJa6b4=
 github.com/resnostyle/mqttkit v0.0.0-20260907115432-3061fa789ccd/go.mod h1:Nk+lZptXLW+PYbuQG3CCT39fZUM1MDAAYRaLtsZeJ48=
+github.com/resnostyle/mqttkit v0.0.3 h1:CEaRdbFC51MG6gBnIW+alE9d8OvI0lXdOVFJWexaPo8=
+github.com/resnostyle/mqttkit v0.0.3/go.mod h1:Nk+lZptXLW+PYbuQG3CCT39fZUM1MDAAYRaLtsZeJ48=
 golang.org/x/net v0.44.0 h1:evd8IRDyfNBMBTTY5XRF1vaZlD+EmWx6x8PkhR04H/I=
 golang.org/x/net v0.44.0/go.mod h1:ECOoLqd5U3Lhyeyo/QDCEVQ4sNgYsqvCZ722XogGieY=
 golang.org/x/sync v0.17.0 h1:l60nONMj9l5drqw6jlhIELNv9I0A4OFgRsG9k2oT9Ug=

@@ -6,6 +6,10 @@
       "matchPackageNames": [
         "github.com/resnostyle/mqttkit"
       ],
+      "reviewers": [
+        "resnostyle"
+      ],
+      "assignAutomerge": true,
       "automerge": true,
       "automergeType": "pr",
       "automergeStrategy": "squash"

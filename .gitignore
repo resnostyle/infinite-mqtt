@@ -1,0 +1,10 @@
+.env
+.env.pinger
+.env.monitor
+.env.speedtest
+bin/
+*.log
+.DS_Store
+.venv/
+
+.pytest_cache/

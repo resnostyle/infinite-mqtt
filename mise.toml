@@ -1,0 +1,15 @@
+[tools]
+go = "1.24"
+
+[env]
+_.path = ["{{config_root}}/bin"]
+
+[tasks.test]
+run = "go test ./..."
+
+[tasks.infinite]
+run = "go run ./cmd/infinite"
+env = { _.file = ".env" }
+
+[tasks.build]
+run = "go build -o bin/infinite ./cmd/infinite"

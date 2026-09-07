@@ -1,0 +1,16 @@
+# Example sidecar next to Home Assistant / Mosquitto.
+# Copy env from .env.example.
+
+services:
+  infinite:
+    image: ghcr.io/resnostyle/infinite-mqtt:latest
+    # build:
+    #   context: .
+    #   dockerfile: Dockerfile
+    #   args:
+    #     SERVICE: infinite
+    #     RUNTIME: distroless
+    container_name: infinite-mqtt
+    restart: unless-stopped
+    env_file:
+      - .env
